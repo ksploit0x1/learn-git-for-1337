@@ -1,0 +1,72 @@
+```
+lvl01
+Assignment name  : aff_a
+Expected files   : aff_a.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that takes a string, and displays the first 'a' character it
+encounters in it, followed by a newline. If there are no 'a' characters in the
+string, the program just writes 'a' followed by a newline. If the number of parameters is not
+1, the program displays 'a' followed by a newline.
+
+Example:
+
+$> ./aff_a "abc" | cat -e
+a$
+$> ./aff_a "dubO a POIL" | cat -e
+a$
+$> ./aff_a "zz sent le poney" | cat -e
+a$
+$> ./aff_a | cat -e
+```
+
+
+
+```
+lvl04
+Assignment name  : ft_add
+Expected files   : ft_add.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+create a function that add an integer from an integer pointed by a pointer.the parameters are an integer and a pointer pointing to an integer.
+
+it should be prototyped as such
+
+void    ft_add(int a,int *ptr) 
+```
+
+
+
+
+
+```Assignment name  : ft_strcmp
+Expected files   : ft_strcmp.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Reproduce the behavior of the function strcmp (man strcmp).
+
+Your function must be declared as follows:
+
+int    ft_strcmp(char *s1, char *s2);
+```
+
+
+```
+lvl09
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+Write a function that converts the string argument str to an integer (type int)
+and returns it.
+
+It works much like the standard atoi(char *str) function, see the man.
+
+Your function must be declared as follows:
+
+int    ft_atoi(char *str);
+```
