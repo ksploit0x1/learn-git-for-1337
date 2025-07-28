@@ -10,7 +10,7 @@ int len(char *tx){
 	return i;
 }
 int main(){
-	char *text = "HellLo World";
+	char *text = "My name Is khAlid 574 &%&";
 	int size = len(text);
 	char output[size];
 	int i=0;
